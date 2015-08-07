@@ -68,6 +68,7 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <IncludePath>$(SolutionDir)./deps/SDL2-2.0.3/include/;$(IncludePath)</IncludePath>
     <LibraryPath>$(SolutionDir)./deps/SDL2-2.0.3/lib/x64/;$(LibraryPath)</LibraryPath>
+    <OutDir>$(SolultionDir)\$(Platform)\$(Configuration)\</OutDir>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
