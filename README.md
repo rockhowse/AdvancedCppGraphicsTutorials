@@ -11,3 +11,6 @@ https://www.youtube.com/playlist?list=PLSPw4ASQYyymu3PfG9gxywSPghnSMiOAW
 2. T-001-InstallingGLEW ~ [Advanced C++/Graphics Tutorial 1: Installing GLEW (Windows)] (https://www.youtube.com/watch?v=u_NI7KOzyFM)
 
 	* GLEW Download URL: https://sourceforge.net/projects/glew/files/glew/1.12.0/
+
+3. T-002-OpeningAWindow ~ [Advanced C++/Graphics Tutorial 2: Opening a window!] (https://www.youtube.com/watch?v=7hF5BiPhP8Q)
+
