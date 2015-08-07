@@ -14,3 +14,5 @@ https://www.youtube.com/playlist?list=PLSPw4ASQYyymu3PfG9gxywSPghnSMiOAW
 
 3. T-002-OpeningAWindow ~ [Advanced C++/Graphics Tutorial 2: Opening a window!] (https://www.youtube.com/watch?v=7hF5BiPhP8Q)
 
+4. T-003-InputProcessing ~ [Advanced C++/Graphics Tutorial 3: Input Processing!] (https://www.youtube.com/watch?v=Bk74hW9KJmc)
+
