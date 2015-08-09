@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
-VisualStudioVersion = 12.0.40629.0
+VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{AB2A991F-DF50-47D2-8DEE-AA1A3201FBB2}"
 	ProjectSection(SolutionItems) = preProject
@@ -18,6 +18,10 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T-003-InputProcessing", "T-003-InputProcessing\T-003-InputProcessing.vcxproj", "{63C7B20D-FACA-4BAA-8EE8-EE17E0CABB00}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T-004-FirstOpenGLTriangle", "T-004-FirstOpenGLTriangle\T-004-FirstOpenGLTriangle.vcxproj", "{BB0F88DB-842D-49D7-AD73-0FED7DD03EFB}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T-005-BitwiseOperationsAndBitfields", "T-005-BitwiseOperationsAndBitfields\T-005-BitwiseOperationsAndBitfields.vcxproj", "{97C1F04B-69A9-4967-897E-1AF539DAFDC9}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T-006-VBOSpriteAndNDC", "T-006-VBOSpriteAndNDC\T-006-VBOSpriteAndNDC.vcxproj", "{EFE8BE76-669D-4D3E-ADF7-70D5FAAB8F2A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -86,6 +90,28 @@ Global
 		{BB0F88DB-842D-49D7-AD73-0FED7DD03EFB}.Release|Win32.ActiveCfg = Release|Win32
 		{BB0F88DB-842D-49D7-AD73-0FED7DD03EFB}.Release|Win32.Build.0 = Release|Win32
 		{BB0F88DB-842D-49D7-AD73-0FED7DD03EFB}.Release|x64.ActiveCfg = Release|Win32
+		{97C1F04B-69A9-4967-897E-1AF539DAFDC9}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{97C1F04B-69A9-4967-897E-1AF539DAFDC9}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{97C1F04B-69A9-4967-897E-1AF539DAFDC9}.Debug|Win32.ActiveCfg = Debug|Win32
+		{97C1F04B-69A9-4967-897E-1AF539DAFDC9}.Debug|Win32.Build.0 = Debug|Win32
+		{97C1F04B-69A9-4967-897E-1AF539DAFDC9}.Debug|x64.ActiveCfg = Debug|x64
+		{97C1F04B-69A9-4967-897E-1AF539DAFDC9}.Debug|x64.Build.0 = Debug|x64
+		{97C1F04B-69A9-4967-897E-1AF539DAFDC9}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{97C1F04B-69A9-4967-897E-1AF539DAFDC9}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{97C1F04B-69A9-4967-897E-1AF539DAFDC9}.Release|Win32.ActiveCfg = Release|Win32
+		{97C1F04B-69A9-4967-897E-1AF539DAFDC9}.Release|Win32.Build.0 = Release|Win32
+		{97C1F04B-69A9-4967-897E-1AF539DAFDC9}.Release|x64.ActiveCfg = Release|Win32
+		{EFE8BE76-669D-4D3E-ADF7-70D5FAAB8F2A}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{EFE8BE76-669D-4D3E-ADF7-70D5FAAB8F2A}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{EFE8BE76-669D-4D3E-ADF7-70D5FAAB8F2A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{EFE8BE76-669D-4D3E-ADF7-70D5FAAB8F2A}.Debug|Win32.Build.0 = Debug|Win32
+		{EFE8BE76-669D-4D3E-ADF7-70D5FAAB8F2A}.Debug|x64.ActiveCfg = Debug|x64
+		{EFE8BE76-669D-4D3E-ADF7-70D5FAAB8F2A}.Debug|x64.Build.0 = Debug|x64
+		{EFE8BE76-669D-4D3E-ADF7-70D5FAAB8F2A}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{EFE8BE76-669D-4D3E-ADF7-70D5FAAB8F2A}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{EFE8BE76-669D-4D3E-ADF7-70D5FAAB8F2A}.Release|Win32.ActiveCfg = Release|Win32
+		{EFE8BE76-669D-4D3E-ADF7-70D5FAAB8F2A}.Release|Win32.Build.0 = Release|Win32
+		{EFE8BE76-669D-4D3E-ADF7-70D5FAAB8F2A}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

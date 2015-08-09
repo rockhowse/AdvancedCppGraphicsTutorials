@@ -20,3 +20,4 @@ https://www.youtube.com/playlist?list=PLSPw4ASQYyymu3PfG9gxywSPghnSMiOAW
 
 6. T-005-BitwiseOperationsAndBitfields ~ [Advanced C++/Graphics Tutorial 5: Bitwise Operations and Bitfields!] (https://www.youtube.com/watch?v=fJ-MXaa7tcU)
 
+7. T-006-VBOSpriteAndNDC ~ [Advanced C++/Graphics Tutorial 6: VBO, Sprite, and NDC!] (https://www.youtube.com/watch?v=W_OctRsu754)
