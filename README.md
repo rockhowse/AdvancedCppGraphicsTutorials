@@ -16,3 +16,7 @@ https://www.youtube.com/playlist?list=PLSPw4ASQYyymu3PfG9gxywSPghnSMiOAW
 
 4. T-003-InputProcessing ~ [Advanced C++/Graphics Tutorial 3: Input Processing!] (https://www.youtube.com/watch?v=Bk74hW9KJmc)
 
+5. T-004-FirstOpenGLTriangle ~ [Advanced C++/Graphics Tutorial 4: First OpenGL Triangle!] (https://www.youtube.com/watch?v=8t3m2mRH7qs)
+
+6. T-005-BitwiseOperationsAndBitfields ~ [Advanced C++/Graphics Tutorial 5: Bitwise Operations and Bitfields!] (https://www.youtube.com/watch?v=fJ-MXaa7tcU)
+
