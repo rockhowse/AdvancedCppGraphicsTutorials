@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T-005-BitwiseOperationsAndB
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T-006-VBOSpriteAndNDC", "T-006-VBOSpriteAndNDC\T-006-VBOSpriteAndNDC.vcxproj", "{EFE8BE76-669D-4D3E-ADF7-70D5FAAB8F2A}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T-007-ShaderIntro", "T-007-ShaderIntro\T-007-ShaderIntro.vcxproj", "{9951CEE9-16E9-4D48-B8A4-CAD0D9058E8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -111,6 +113,17 @@ Global
 		{EFE8BE76-669D-4D3E-ADF7-70D5FAAB8F2A}.Release|Win32.ActiveCfg = Release|Win32
 		{EFE8BE76-669D-4D3E-ADF7-70D5FAAB8F2A}.Release|Win32.Build.0 = Release|Win32
 		{EFE8BE76-669D-4D3E-ADF7-70D5FAAB8F2A}.Release|x64.ActiveCfg = Release|Win32
+		{9951CEE9-16E9-4D48-B8A4-CAD0D9058E8F}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{9951CEE9-16E9-4D48-B8A4-CAD0D9058E8F}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{9951CEE9-16E9-4D48-B8A4-CAD0D9058E8F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9951CEE9-16E9-4D48-B8A4-CAD0D9058E8F}.Debug|Win32.Build.0 = Debug|Win32
+		{9951CEE9-16E9-4D48-B8A4-CAD0D9058E8F}.Debug|x64.ActiveCfg = Debug|x64
+		{9951CEE9-16E9-4D48-B8A4-CAD0D9058E8F}.Debug|x64.Build.0 = Debug|x64
+		{9951CEE9-16E9-4D48-B8A4-CAD0D9058E8F}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{9951CEE9-16E9-4D48-B8A4-CAD0D9058E8F}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{9951CEE9-16E9-4D48-B8A4-CAD0D9058E8F}.Release|Win32.ActiveCfg = Release|Win32
+		{9951CEE9-16E9-4D48-B8A4-CAD0D9058E8F}.Release|Win32.Build.0 = Release|Win32
+		{9951CEE9-16E9-4D48-B8A4-CAD0D9058E8F}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
