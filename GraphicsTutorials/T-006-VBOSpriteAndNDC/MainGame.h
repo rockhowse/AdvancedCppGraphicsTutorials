@@ -2,6 +2,7 @@
 
 #include <SDL.h>
 #include <GL/glew.h>
+#include "Sprite.h"
 
 enum class GameState {PLAY, EXIT};
 class MainGame
@@ -24,5 +25,6 @@ private:
 	void processInput();
 	void drawGame();
 
+	Sprite _sprite;
 };
 
