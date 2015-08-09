@@ -35,24 +35,31 @@ void MainGame::initSystems() {
 	// Initialize SDL
 	SDL_Init(SDL_INIT_EVERYTHING);
 
+	// Open an SDL window
 	_window = SDL_CreateWindow("Game Engine", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED, _screenWidth, _screenHeight, SDL_WINDOW_OPENGL);
 
 	if (_window == nullptr) {
 		fatalError("SDL Window could not be created.");
 	}
 
+	// Set up our OpenGL Context
 	SDL_GLContext glContext = SDL_GL_CreateContext(_window);
 
 	if (glContext == nullptr) {
 		fatalError("SDL_GL Context could not be created.");
 	}
 
+	// Set up glew (optional but recommended
+	// might help with compatabilty issues for some people
+	// glewExperimental = true;
+	
 	GLenum error = glewInit();
 
 	if (error != GLEW_OK) {
 		fatalError("Could not initalize GLEW.");
 	}
 
+	//Tell SDL that we want a double buffered windo so we don't get any flickering
 	SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
 	glClearColor(0.0, 0.0, 1.0, 1.0);
 }
@@ -88,9 +95,9 @@ void MainGame::drawGame() {
 
 	glColor3f(1.0, 0.0, 0.0);
 
+	glVertex2f(-1, -1);
+	glVertex2f(0, -1);
 	glVertex2f(0, 0);
-	glVertex2f(0, 500);
-	glVertex2f(500, 500);
 
 	glEnd();
 
