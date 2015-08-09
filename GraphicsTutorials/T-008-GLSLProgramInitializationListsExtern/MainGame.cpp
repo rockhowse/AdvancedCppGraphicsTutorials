@@ -2,13 +2,7 @@
 
 #include <iostream>
 #include <string>
-
-void fatalError(std::string errorString) {
-	std::cout << errorString << std::endl;
-	std::cout << "Enter any key to quit...";
-	int tmp;
-	std::cin >> tmp;
-}
+#include "Errors.h"
 
 MainGame::MainGame()
 {
@@ -18,7 +12,6 @@ MainGame::MainGame()
 
 	_gameState = GameState::PLAY;
 }
-
 
 MainGame::~MainGame()
 {
