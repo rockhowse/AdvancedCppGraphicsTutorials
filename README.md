@@ -23,3 +23,5 @@ https://www.youtube.com/playlist?list=PLSPw4ASQYyymu3PfG9gxywSPghnSMiOAW
 7. T-006-VBOSpriteAndNDC ~ [Advanced C++/Graphics Tutorial 6: VBO, Sprite, and NDC!] (https://www.youtube.com/watch?v=W_OctRsu754)
 
 8. T-007-Shaderintro ~ [Advanced C++/Graphics Tutorial 7: Shader Intro!] (https://www.youtube.com/watch?v=j91xhXPJezg)
+
+9. T-008-GLSLProgramInitializationExtern ~ [Advanced C++/Graphics Tutorial 8: GLSLProgram, Initialization Lists, extern!] (https://www.youtube.com/watch?v=LLUtSE2osfI)
