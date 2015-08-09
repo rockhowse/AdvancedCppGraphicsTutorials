@@ -29,10 +29,6 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="colorShading.frag" />
-    <None Include="colorShading.vert" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -48,5 +44,9 @@
     <ClCompile Include="Errors.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shaders\colorShading.frag" />
+    <None Include="Shaders\colorShading.vert" />
   </ItemGroup>
 </Project>
