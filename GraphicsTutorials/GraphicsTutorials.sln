@@ -17,6 +17,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T-002-OpeningAWindow", "T-0
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T-003-InputProcessing", "T-003-InputProcessing\T-003-InputProcessing.vcxproj", "{63C7B20D-FACA-4BAA-8EE8-EE17E0CABB00}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T-004-FirstOpenGLTriangle", "T-004-FirstOpenGLTriangle\T-004-FirstOpenGLTriangle.vcxproj", "{BB0F88DB-842D-49D7-AD73-0FED7DD03EFB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -73,6 +75,17 @@ Global
 		{63C7B20D-FACA-4BAA-8EE8-EE17E0CABB00}.Release|Win32.ActiveCfg = Release|Win32
 		{63C7B20D-FACA-4BAA-8EE8-EE17E0CABB00}.Release|Win32.Build.0 = Release|Win32
 		{63C7B20D-FACA-4BAA-8EE8-EE17E0CABB00}.Release|x64.ActiveCfg = Release|Win32
+		{BB0F88DB-842D-49D7-AD73-0FED7DD03EFB}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{BB0F88DB-842D-49D7-AD73-0FED7DD03EFB}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{BB0F88DB-842D-49D7-AD73-0FED7DD03EFB}.Debug|Win32.ActiveCfg = Debug|Win32
+		{BB0F88DB-842D-49D7-AD73-0FED7DD03EFB}.Debug|Win32.Build.0 = Debug|Win32
+		{BB0F88DB-842D-49D7-AD73-0FED7DD03EFB}.Debug|x64.ActiveCfg = Debug|x64
+		{BB0F88DB-842D-49D7-AD73-0FED7DD03EFB}.Debug|x64.Build.0 = Debug|x64
+		{BB0F88DB-842D-49D7-AD73-0FED7DD03EFB}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{BB0F88DB-842D-49D7-AD73-0FED7DD03EFB}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{BB0F88DB-842D-49D7-AD73-0FED7DD03EFB}.Release|Win32.ActiveCfg = Release|Win32
+		{BB0F88DB-842D-49D7-AD73-0FED7DD03EFB}.Release|Win32.Build.0 = Release|Win32
+		{BB0F88DB-842D-49D7-AD73-0FED7DD03EFB}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

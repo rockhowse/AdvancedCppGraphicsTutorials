@@ -194,3 +194,25 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+
+#custom ovrrides to allow binary files to be checked in for the deps
+
+!GraphicsTutorials
+!GraphicsTutorials/deps
+
+!GraphicsTutorials/deps/SDL2-2.0.3
+!GraphicsTutorials/deps/SDL2-2.0.3/lib
+!GraphicsTutorials/deps/SDL2-2.0.3/lib/x64
+!GraphicsTutorials/deps/SDL2-2.0.3/lib/x86
+
+!GraphicsTutorials/deps/glew-1.12.0/
+!GraphicsTutorials/deps/glew-1.12.0/bin/
+!GraphicsTutorials/deps/glew-1.12.0/bin/Release/
+!GraphicsTutorials/deps/glew-1.12.0/bin/Release/Win32/
+!GraphicsTutorials/deps/glew-1.12.0/bin/Release/x64/
+!GraphicsTutorials/deps/glew-1.12.0/doc/
+
+!GraphicsTutorials/deps/glew-1.12.0/lib/
+!GraphicsTutorials/deps/glew-1.12.0/lib/Release/
+!GraphicsTutorials/deps/glew-1.12.0/lib/Release/Win32/
+!GraphicsTutorials/deps/glew-1.12.0/lib/Release/x64/
