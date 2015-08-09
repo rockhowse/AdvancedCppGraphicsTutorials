@@ -20,7 +20,9 @@ private:
 	GameState _gameState;
 
 	void initSystems();
-	void processInput();
 	void gameLoop();
+	void processInput();
+	void drawGame();
+
 };
 
