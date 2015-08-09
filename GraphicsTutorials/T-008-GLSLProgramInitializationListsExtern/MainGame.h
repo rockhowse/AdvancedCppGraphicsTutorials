@@ -3,6 +3,7 @@
 #include <SDL.h>
 #include <GL/glew.h>
 #include "Sprite.h"
+#include "GLSLProgram.h"
 
 enum class GameState {PLAY, EXIT};
 class MainGame
@@ -21,10 +22,13 @@ private:
 	GameState _gameState;
 
 	void initSystems();
+	void initShaders();
 	void gameLoop();
 	void processInput();
 	void drawGame();
 
 	Sprite _sprite;
+
+	GLSLProgram _colorProgram;
 };
 

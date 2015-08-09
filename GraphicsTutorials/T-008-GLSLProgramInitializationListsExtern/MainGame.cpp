@@ -56,6 +56,15 @@ void MainGame::initSystems() {
 	//Tell SDL that we want a double buffered windo so we don't get any flickering
 	SDL_GL_SetAttribute(SDL_GL_DOUBLEBUFFER, 1);
 	glClearColor(0.0, 0.0, 1.0, 1.0);
+
+	// initialize the shaders
+	initShaders();
+}
+
+void MainGame::initShaders() {
+	_colorProgram.compileShaders("./Shaders/colorShading.vert", "./Shaders/colorShading.frag");
+	_colorProgram.addAttribute("vertexPosition");
+	_colorProgram.linkShaders();
 }
 
 void MainGame::gameLoop() {
@@ -84,7 +93,12 @@ void MainGame::drawGame() {
 	glClearDepth(1.0);
 	glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
+	_colorProgram.use();
+
 	_sprite.draw();
+
+	_colorProgram.unuse();
 
 	SDL_GL_SwapWindow(_window);
 }
+
