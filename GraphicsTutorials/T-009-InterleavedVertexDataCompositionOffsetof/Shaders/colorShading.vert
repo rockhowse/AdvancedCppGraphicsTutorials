@@ -5,7 +5,7 @@
 in vec2 vertexPosition;
 in vec4 vertexColor;
 
-out vec4 fragmentColor;
+flat out vec4 fragmentColor;
 
 void main() {
 	// Set the x,y position on the screen
