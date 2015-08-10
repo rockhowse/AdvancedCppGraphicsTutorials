@@ -26,5 +26,5 @@ https://www.youtube.com/playlist?list=PLSPw4ASQYyymu3PfG9gxywSPghnSMiOAW
 
 * T-008-GLSLProgramInitializationExtern ~ [Advanced C++/Graphics Tutorial 8: GLSLProgram, Initialization Lists, extern!] (https://www.youtube.com/watch?v=LLUtSE2osfI)
 
-* T-009-T-009-InterleavedVertexDataCompositionOffsetof ~ [Advanced C++/Graphics Tutorial 9: Interleaved Vertex Data, composition, offsetof] (https://www.youtube.com/watch?v=mU80e0eMLjc)
+* T-009-InterleavedVertexDataCompositionOffsetof ~ [Advanced C++/Graphics Tutorial 9: Interleaved Vertex Data, composition, offsetof] (https://www.youtube.com/watch?v=mU80e0eMLjc)
 
