@@ -3,6 +3,9 @@
 
 // input data from the VBO. Each vertex is 2 floats
 in vec2 vertexPosition;
+in vec4 vertexColor;
+
+out vec4 fragmentColor;
 
 void main() {
 	// Set the x,y position on the screen
@@ -13,4 +16,6 @@ void main() {
 
 	// Indicates that the cordinates are normalized
 	gl_Position.w = 1.0;
+
+	fragmentColor = vertexColor;
 }
