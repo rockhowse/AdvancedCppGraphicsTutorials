@@ -29,6 +29,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T-008-GLSLProgramInitializa
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T-009-InterleavedVertexDataCompositionOffsetof", "T-009-InterleavedVertexDataCompositionOffsetof\T-009-InterleavedVertexDataCompositionOffsetof.vcxproj", "{1D45EA41-F8FD-4637-8F8A-9A8A52EF3DCC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "T-010-UniformVariables", "T-010-UniformVariables\T-010-UniformVariables.vcxproj", "{435596E2-9C16-482D-86F3-5FA205AF8930}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Mixed Platforms = Debug|Mixed Platforms
@@ -150,6 +152,17 @@ Global
 		{1D45EA41-F8FD-4637-8F8A-9A8A52EF3DCC}.Release|Win32.ActiveCfg = Release|Win32
 		{1D45EA41-F8FD-4637-8F8A-9A8A52EF3DCC}.Release|Win32.Build.0 = Release|Win32
 		{1D45EA41-F8FD-4637-8F8A-9A8A52EF3DCC}.Release|x64.ActiveCfg = Release|Win32
+		{435596E2-9C16-482D-86F3-5FA205AF8930}.Debug|Mixed Platforms.ActiveCfg = Debug|Win32
+		{435596E2-9C16-482D-86F3-5FA205AF8930}.Debug|Mixed Platforms.Build.0 = Debug|Win32
+		{435596E2-9C16-482D-86F3-5FA205AF8930}.Debug|Win32.ActiveCfg = Debug|Win32
+		{435596E2-9C16-482D-86F3-5FA205AF8930}.Debug|Win32.Build.0 = Debug|Win32
+		{435596E2-9C16-482D-86F3-5FA205AF8930}.Debug|x64.ActiveCfg = Debug|x64
+		{435596E2-9C16-482D-86F3-5FA205AF8930}.Debug|x64.Build.0 = Debug|x64
+		{435596E2-9C16-482D-86F3-5FA205AF8930}.Release|Mixed Platforms.ActiveCfg = Release|Win32
+		{435596E2-9C16-482D-86F3-5FA205AF8930}.Release|Mixed Platforms.Build.0 = Release|Win32
+		{435596E2-9C16-482D-86F3-5FA205AF8930}.Release|Win32.ActiveCfg = Release|Win32
+		{435596E2-9C16-482D-86F3-5FA205AF8930}.Release|Win32.Build.0 = Release|Win32
+		{435596E2-9C16-482D-86F3-5FA205AF8930}.Release|x64.ActiveCfg = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

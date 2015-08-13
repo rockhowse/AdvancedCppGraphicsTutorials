@@ -28,3 +28,6 @@ https://www.youtube.com/playlist?list=PLSPw4ASQYyymu3PfG9gxywSPghnSMiOAW
 
 * T-009-InterleavedVertexDataCompositionOffsetof ~ [Advanced C++/Graphics Tutorial 9: Interleaved Vertex Data, composition, offsetof] (https://www.youtube.com/watch?v=mU80e0eMLjc)
 
+* T-010-UniformVariables ~ [Advanced C++/Graphics Tutorial 10: Uniform Variables!] (https://www.youtube.com/watch?v=gsqrBx8CI0o)
+
+
